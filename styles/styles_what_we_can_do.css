@@ -72,22 +72,3 @@ body {
 .navbar-button:hover {
     background-color: #0272c9;
 }
-.photos-content{
-    height: 720px;
-    width: 720px;
-}
-.content-causes-erosion{
-    font-family: "Montserrat", sans-serif;
-    font-size: 30px;
-    top : 1000000px;
-}
-.content-causes-contamination{
-    font-family: "Montserrat", sans-serif;
-    font-size: 30px;
-    top : 1000000px;
-}
-.content-causes-droughts{
-    font-family: "Montserrat", sans-serif;
-    font-size: 30px;
-    top : 1000000px;
-}
