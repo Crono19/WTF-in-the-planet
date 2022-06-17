@@ -76,13 +76,18 @@ body {
     height: 720px;
     width: 720px;
 }
-.content-causes{
+.content-causes-erosion{
     font-family: "Montserrat", sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     top : 1000000px;
 }
 .content-causes-contamination{
     font-family: "Montserrat", sans-serif;
-    font-size: 40px;
+    font-size: 30px;
+    top : 1000000px;
+}
+.content-causes-droughts{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
     top : 1000000px;
 }
