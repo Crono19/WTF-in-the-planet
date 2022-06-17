@@ -19,27 +19,28 @@ body {
     text-decoration: none;
 }
 
+.logo-a {
+    display: inline-block;
+    border: none;
+}
+
 .footer-div {
     background-color: #000000;
-    top: 100%;
+    padding: 2px 10%;
 }
 
 .navbar-header {
     background-color: #1c2547;
 }
 
-.navbar-header{
+.navbar-header, .footer-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2px 5%;
 }
 
-.footer-div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2px 10%;
+.navbar-header {
+    padding: 2px 5%;
 }
 
 .logo {
@@ -47,16 +48,16 @@ body {
     border-radius: 50px;
 }
 
-.links-navbar li, .links-footer li {
+.navbar-li, .footer-li {
     display: inline-block;
     padding: 0px 20px;
 }
 
-.links-navbar li a, .links-footer li a{
+.navbar-a, .footer-a {
     transition: all 0.3s ease 0s;
 }
 
-.links-navbar li a:hover, .links-footer li a:hover{
+.navbar-a:hover, .footer-a:hover {
     color: #1a8de4;
 }
 
@@ -71,4 +72,74 @@ body {
 
 .navbar-button:hover {
     background-color: #0272c9;
+}
+
+/*Content css*/
+
+p, h1, h3 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+form {
+    text-align: center;
+}
+
+.textbox {
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    color: #6E6E6DFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 350px;
+    height: 50px;
+    border: none;
+}
+
+.richtextbox {
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    color: #6E6E6DFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 500px;
+    height: 250px;
+    border: none;
+}
+
+.button_send {
+    font-weight: 500;   
+    font-size: 16px;
+    background-color: #1a8de4;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    width: 150px;
+    height: 45px;
+    transition: all 0.3s ease 0s;
+}
+
+.button_send:hover {
+    background-color: #0272c9;
+}
+
+.form-div {
+    padding: 80px 60px;
 }
