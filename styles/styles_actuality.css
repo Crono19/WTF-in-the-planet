@@ -72,3 +72,96 @@ body {
 .navbar-button:hover {
     background-color: #0272c9;
 }
+
+
+.button1-Resources {
+    background-color: transparent;
+    color: rgb(255, 255, 255);  
+    height: 540px;
+    width: 270px;
+    top : 40px;
+    right : 50px;
+    margin: 10px auto 10px;
+}
+
+.button1-Resources:hover {
+    margin: 10px auto 10px;
+    color: rgb(255, 255, 255); 
+    height: 540px;
+    width: 270px;
+    top : 40px;
+    right : 60px;
+    background-color: transparent;
+}
+
+
+.button2-how-much-time-do-we-have {
+    margin: 10px auto 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);  
+    height: 270px;
+    width: 270px;
+    top : 40px;
+    right : 60px;
+    
+}
+
+.button2-how_much_time_do_we_have:hover {
+    margin: 10px auto 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255); 
+    height: 270px;
+    width: 270px;
+    top : 40px;
+    right : 60px;
+    
+}
+
+.button3-Community {
+    margin: 10px auto 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255); 
+    height: 270px;
+    width: 270px;
+    top : 40px;
+    right : 60px;
+    
+}
+
+.button3-Community:hover {
+    margin: 10px auto 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255); 
+    height: 270px;
+    width: 270px;
+    top : 40px;
+    right : 60px;
+    
+  
+}
+
+.button4-What-can-we-do {
+    margin: 10px auto 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255); 
+    height: 540px;
+    width: 540px;
+    top : 40px;
+    right : 60px;
+}
+
+.button4-What-can-we-do:hover {
+    margin: 10px auto 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255); 
+    height: 540px;
+    width: 540px;
+    top : 40px;
+    right : 60px;
+}
+
+.contents{
+    font-family: "Montserrat", sans-serif;
+}
+
+
