@@ -82,6 +82,7 @@ body {
     top : 40px;
     right : 50px;
     margin: 10px auto 10px;
+    line-height: 200px;
 }
 
 .button1-Resources:hover {
@@ -92,6 +93,7 @@ body {
     top : 40px;
     right : 60px;
     background-color: transparent;
+    line-height: 200px;
 }
 
 
@@ -103,7 +105,7 @@ body {
     width: 270px;
     top : 40px;
     right : 60px;
-    
+    line-height: 200px;
 }
 
 .button2-how_much_time_do_we_have:hover {
@@ -114,7 +116,7 @@ body {
     width: 270px;
     top : 40px;
     right : 60px;
-    
+    line-height: 200px;
 }
 
 .button3-Community {
@@ -125,7 +127,7 @@ body {
     width: 270px;
     top : 40px;
     right : 60px;
-    
+    line-height: 200px;
 }
 
 .button3-Community:hover {
@@ -136,7 +138,7 @@ body {
     width: 270px;
     top : 40px;
     right : 60px;
-    
+    line-height: 200px;
   
 }
 
@@ -148,6 +150,7 @@ body {
     width: 270px;
     top : 40px;
     right : 60px;
+    line-height: 200px;
 }
 
 .button4-Media:hover {
@@ -158,6 +161,7 @@ body {
     width: 270px;
     top : 40px;
     right : 60px;
+    line-height: 200px;
 }
 
 .contents{
