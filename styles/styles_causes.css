@@ -147,3 +147,7 @@ body {
     margin: 10px auto 10px; 
     text-align: justify;
 }
+
+.form-div {
+    padding: 80px 60px;
+}

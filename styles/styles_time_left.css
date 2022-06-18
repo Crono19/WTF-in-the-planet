@@ -72,3 +72,16 @@ body {
 .navbar-button:hover {
     background-color: #0272c9;
 }
+
+.content-time-left {
+    font-family: "Montserrat", sans-serif;
+    padding: 0px 20px;
+    margin: 10px auto 10px; 
+    text-align: justify;
+    text-align:center
+    font-size: 50px;
+}
+
+.form-div {
+    padding: 80px 60px;
+}

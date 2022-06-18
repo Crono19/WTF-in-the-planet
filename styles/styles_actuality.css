@@ -168,4 +168,6 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-
+.form-div {
+    padding: 80px 60px;
+}
