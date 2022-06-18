@@ -1,0 +1,11 @@
+.go-up {
+	display:inline-block;
+	padding:20px;
+	background:#1a8de4;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
