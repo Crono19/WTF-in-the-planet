@@ -1,74 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
-/*Body css*/
-
-body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(255, 255, 255);
+.background1, .background2 {
+    width: 98.9vw;
+    position: absolute;
+    z-index: -1;
 }
 
-/*Navbar and footer  css*/
-
-.navbar-li, .navbar-a, .navbar-button, .footer-li, .footer-a {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;   
-    font-size: 16px;
-    color:rgb(255, 255, 255);
-    text-decoration: none;
+.background1 {
+    top: 0%;
 }
 
-.footer-div {
-    background-color: #000000;
+.background2 {
     top: 100%;
 }
 
 .navbar-header {
-    background-color: #1c2547;
-}
-
-.navbar-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2px 5%;
+    background-color: #1c2547a8;
 }
 
 .footer-div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2px 10%;
-}
-
-.logo {
-    cursor: pointer;
-    border-radius: 50px;
-}
-
-.links-navbar li, .links-footer li {
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.links-navbar li a, .links-footer li a{
-    transition: all 0.3s ease 0s;
-}
-
-.links-navbar li a:hover, .links-footer li a:hover{
-    color: #1a8de4;
-}
-
-.navbar-button {
-    padding: 9px 25px;
-    background-color: #1a8de4;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-.navbar-button:hover {
-    background-color: #0272c9;
+    margin-top: 99%;
 }

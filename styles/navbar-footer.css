@@ -43,8 +43,8 @@ body {
 }
 
 .logo {
-    cursor: pointer;
-    border-radius: 50px;
+    border-radius: 10px;
+    background-color: white;
 }
 
 .links-navbar li, .links-footer li {
@@ -71,4 +71,8 @@ body {
 
 .navbar-button:hover {
     background-color: #0272c9;
+}
+
+.icon {
+    background-color: white;
 }

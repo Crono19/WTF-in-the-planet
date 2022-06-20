@@ -1,168 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
-/*Body css*/
-
-body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(255, 255, 255);
-}
-
-/*Navbar and footer  css*/
-
-.navbar-li, .navbar-a, .navbar-button, .footer-li, .footer-a {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;   
-    font-size: 16px;
-    color:rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-.footer-div {
-    background-color: #000000;
-    top: 100%;
-}
-
-.navbar-header {
-    background-color: #1c2547;
-}
-
-.navbar-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2px 5%;
-}
-
-.footer-div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2px 10%;
-}
-
-.logo {
-    cursor: pointer;
-    border-radius: 50px;
-}
-
-.links-navbar li, .links-footer li {
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.links-navbar li a, .links-footer li a{
-    transition: all 0.3s ease 0s;
-}
-
-.links-navbar li a:hover, .links-footer li a:hover{
-    color: #1a8de4;
-}
-
-.navbar-button {
-    padding: 9px 25px;
-    background-color: #1a8de4;
+.button1-Resources, .button1-Resources:hover, .button2-how-much-time-do-we-have, .button2-how_much_time_do_we_have:hover,
+.button3-Community, .button3-Community:hover, .button4-Media, .button4-Media:hover {
+    background-color: transparent;
+    color: rgb(255, 255, 255);  
+    height: 540px;
+    width: 270px;
+    top : 40px;
+    right : 60px;
+    margin: 10px auto 10px;
+    line-height: 200px;
     border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
 }
 
-.navbar-button:hover {
-    background-color: #0272c9;
-}
-
-
-.button1-Resources {
-    background-color: transparent;
-    color: rgb(255, 255, 255);  
-    height: 540px;
-    width: 270px;
-    top : 40px;
-    right : 50px;
-    margin: 10px auto 10px;
-    line-height: 200px;
-}
-
-.button1-Resources:hover {
-    margin: 10px auto 10px;
-    color: rgb(255, 255, 255); 
-    height: 540px;
-    width: 270;
-    top : 40px;
-    right : 60px;
-    background-color: transparent;
-    line-height: 200px;
-}
-
-
-.button2-how-much-time-do-we-have {
-    margin: 10px auto 10px;
-    background-color: transparent;
-    color: rgb(255, 255, 255);  
-    height: 540px;
-    width: 270px;
-    top : 40px;
-    right : 60px;
-    line-height: 200px;
-}
-
-.button2-how_much_time_do_we_have:hover {
-    margin: 10px auto 10px;
-    background-color: transparent;
-    color: rgb(255, 255, 255); 
-    height: 540px;
-    width: 270px;
-    top : 40px;
-    right : 60px;
-    line-height: 200px;
-}
-
-.button3-Community {
-    margin: 10px auto 10px;
-    background-color: transparent;
-    color: rgb(255, 255, 255); 
-    height: 540px;
-    width: 270px;
-    top : 40px;
-    right : 60px;
-    line-height: 200px;
-}
-
-.button3-Community:hover {
-    margin: 10px auto 10px;
-    background-color: transparent;
-    color: rgb(255, 255, 255); 
-    height: 540px;
-    width: 270px;
-    top : 40px;
-    right : 60px;
-    line-height: 200px;
-  
-}
-
-.button4-Media {
-    margin: 10px auto 10px;
-    background-color: transparent;
-    color: rgb(255, 255, 255); 
-    height: 540px;
-    width: 270px;
-    top : 40px;
-    right : 60px;
-    line-height: 200px;
-}
-
-.button4-Media:hover {
-    margin: 10px auto 10px;
-    background-color: transparent;
-    color: rgb(255, 255, 255); 
-    height: 540px;
-    width: 270px;
-    top : 40px;
-    right : 60px;
-    line-height: 200px;
-}
+.Buttons:hover {
+    cursor: pointer;}
 
 .contents{
     font-family: "Montserrat", sans-serif;
