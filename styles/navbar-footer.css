@@ -76,14 +76,49 @@ body {
 }
 
 .navbar-button {
-    padding: 9px 25px;
-    background-color: #1a8de4;
-    border: none;
-    border-radius: 50px;
+    width:250px;
+    height:60px;
+    background:#1a8de4;
+    position:absolute;
+    top:50%;
+    left:90%;
+    transform:translate(-50%,-50%);
+    border-radius:50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    overflow: hidden;
+}
+
+.navbar-button::before {
+    content:'Envíanos tu opinión';
+    color:white;
+    font-family:'Montserrat',sans-serif;
+    font-size:18px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    transition:all .5s ease-in-out;
 }
 
 .navbar-button:hover {
     background-color: #0272c9;
+}
+
+.navbar-button:hover::before {
+    top: -40%;
+}
+
+.navbar-button::after{
+    font-family:'FontAwesome';
+    content:"\f0ac";
+    font-size:40px;
+    position:absolute;
+    top:150%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    transition:all .5s ease-in-out;
+}
+
+.navbar-button:hover::after {
+    top: 50%;
 }
