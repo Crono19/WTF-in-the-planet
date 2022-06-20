@@ -1,1 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+.content-resources {
+    font-family: "Montserrat", sans-serif;
+    padding: 0px 20px;
+    margin: 10px auto 10px; 
+    text-align: justify;
+    text-align: center;
+    font-size:  25px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.form-div {
+    padding: 80px 60px;
+}
