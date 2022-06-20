@@ -11,21 +11,35 @@ body {
 
 /*Navbar and footer  css*/
 
-.navbar-li, .navbar-a, .navbar-button, .footer-li, .footer-a {
+.navbar-li:hover{
+    -webkit-transform:scale(1);transform:scale(1.2);
+    transition: .7s ease-out all;
+}
+
+.navbar-li, .navbar-a, .navbar-button, .footer-li, .footer-a, .footer {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;   
     font-size: 19px;
     color:rgb(255, 255, 255);
     text-decoration: none;
+    font-weight: bold;
+}
+
+.links-navbar{
+    transform:translate(-10%,-0%);
 }
 
 .footer-div {
     background-color: #000000;
 }
 
+.footer-li:hover{
+    -webkit-transform:scale(1);transform:scale(1.2);
+    transition: .7s ease-out all;
+}
+
 .navbar-header {
     background-color: #1c2547;
-    backdrop-filter: blur(10px);
 }
 
 .navbar-header{
@@ -35,10 +49,8 @@ body {
 }
 
 .navbar-header {
-    padding: 2px 5%;
+    padding: 5px 5%;
 }
-
-
 
 .links-footer {
     padding-top:23px;
@@ -58,21 +70,18 @@ body {
 }
 
 .links-navbar li {
-    display: inline-block;
+    display:inline-flex;
     padding: 0px 20px;
 }
 
 .links-footer li{
     display: inline-block;
-    padding:0 10px;
-}
-
-.links-navbar li a, .links-footer li a{
-    transition: all 0.3s ease 0s;
+    padding:0 20px;
 }
 
 .links-navbar li a:hover, .links-footer li a:hover{
     color: #1a8de4;
+
 }
 
 .navbar-button {
