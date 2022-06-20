@@ -1,1 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+.photos-content{
+    height: 720px;
+    width: 720px;
+    padding-left: 20px;
+}
+.photos-content2{
+    height: 720px;
+    width: 720px;
+    padding-right: 20px;
+}
+.content-effects{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    top : 1000000px;
+}
+.content-effects2{
+    padding: 0px 20px;
+    margin: 10px auto 10px; 
+    text-align: justify;
+}   
