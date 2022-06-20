@@ -21,7 +21,6 @@ body {
 
 .footer-div {
     background-color: #000000;
-    top: 100%;
 }
 
 .navbar-header {
@@ -32,14 +31,22 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.navbar-header {
     padding: 2px 5%;
 }
 
+.links-footer {
+    padding-top:23px;
+    list-style:none;
+    text-align:center;
+    margin-bottom:0;
+}
+
 .footer-div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2px 10%;
+    text-align:center;
+    padding-bottom:25px;
 }
 
 .logo {
@@ -47,9 +54,14 @@ body {
     background-color: white;
 }
 
-.links-navbar li, .links-footer li {
+.links-navbar li {
     display: inline-block;
     padding: 0px 20px;
+}
+
+.links-footer li{
+    display: inline-block;
+    padding:0 10px;
 }
 
 .links-navbar li a, .links-footer li a{
@@ -71,8 +83,4 @@ body {
 
 .navbar-button:hover {
     background-color: #0272c9;
-}
-
-.icon {
-    background-color: white;
 }
