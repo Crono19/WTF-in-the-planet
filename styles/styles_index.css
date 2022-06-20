@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
 .background1, .background2 {
-    width: 98.9vw;
+    width: 100vw;
     position: absolute;
     z-index: -1;
+
 }
 
 .background1 {
-    top: 0%;
+    top: 10%;
 }
 
 .background2 {
-    top: 100%;
+    top: 70%;
+	height: 53vw;
 }
 
 .navbar-header {
@@ -19,7 +21,10 @@
 }
 
 .footer-div {
-    margin-top: 99%;
+    margin-top: 75%;
+}
+.container{
+	background-color: black;
 }
 
 /* ? ----- Espacio estético Portada contador ----- */
@@ -29,6 +34,7 @@
 	top: 0;
 	left: 0;
 	right: 0;
+	background-color: black;
 
 	display: flex;
 	flex-direction: column;
@@ -42,7 +48,7 @@
 #count {
 	display: flex;
 	justify-content: center;
-	margin-bottom: -1400px;
+	margin-bottom: -1480px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;   
     font-size: 16px;
