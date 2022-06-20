@@ -20,3 +20,22 @@
     margin: 10px auto 10px; 
     text-align: justify;
 }   
+.form-div {
+    padding: 80px 60px;
+}
+
+.navbar-header {
+	backdrop-filter: blur(2px);
+}
+
+.navbar-a {
+	font-size: 19px;
+}
+
+.footer-a{
+	font-size: 19px;
+}
+
+.navbar-button {
+	font-size: 19px;
+}

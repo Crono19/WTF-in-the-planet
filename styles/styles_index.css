@@ -13,16 +13,29 @@
 
 .background2 {
     top: 70%;
-	height: 53vw;
+	height: 48vw;
 }
 
 .navbar-header {
-    background-color: #1c2547a8;
+	backdrop-filter: blur(10px);
+}
+
+.navbar-a {
+	font-size: 19px;
+}
+
+.footer-a{
+	font-size: 19px;
+}
+
+.navbar-button {
+	font-size: 19px;
 }
 
 .footer-div {
     margin-top: 75%;
 }
+
 .container{
 	background-color: black;
 }
@@ -48,7 +61,7 @@
 #count {
 	display: flex;
 	justify-content: center;
-	margin-bottom: -1480px;
+	margin-bottom: -1430px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;   
     font-size: 16px;
