@@ -33,14 +33,14 @@
 }
 
 .footer-div {
-    margin-top: 75%;
+    margin-top: 70%;
 }
 
 .container{
 	background-color: black;
 }
 
-/* ? ----- Espacio estético Portada contador ----- */
+/* ? ----- Port timer css  ----- */
 .countdown {
 	width: 100%;
 	position:relative;
@@ -57,7 +57,7 @@
 	transition: .5s ease-out all;
 }
 
-/* ? ----- Espacio estético del contador ----- */
+/* ? ----- Timer css ----- */
 #count {
 	display: flex;
 	justify-content: center;

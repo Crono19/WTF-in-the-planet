@@ -60,6 +60,7 @@ form {
     border-radius: 5px;
     cursor: pointer;
     overflow: hidden;
+    margin-top: 15vw;
   }
   
   .button_send::before{
