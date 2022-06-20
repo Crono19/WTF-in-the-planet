@@ -54,7 +54,7 @@ form {
     height: 60px;
     background: #1a8de4;
     position: absolute;
-    top: 125%;
+    top: 120%;
     left:50%;
     transform: translate(-50%, -50%);
     border-radius: 5px;
@@ -65,7 +65,8 @@ form {
   .button_send::before{
     content: 'Enviar';
     color: white;
-    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     position: absolute;
     top: 50%;
