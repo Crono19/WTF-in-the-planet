@@ -13,7 +13,7 @@
 
 .background2 {
     top: 70%;
-	height: 50vw;
+	height: 53vw;
 }
 
 .navbar-header {
@@ -48,7 +48,7 @@
 #count {
 	display: flex;
 	justify-content: center;
-	margin-bottom: -1300px;
+	margin-bottom: -1480px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;   
     font-size: 16px;
