@@ -5,77 +5,18 @@
     width: 720px;
     padding-left: 20px;
 }
-.content-causes-erosion{
+.photos-content2{
+    height: 720px;
+    width: 720px;
+    padding-right: 20px;
+}
+.content-Solutions{
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     top : 1000000px;
 }
-.content-causes-erosion2{
+.content-Solutions2{
     padding: 0px 20px;
     margin: 10px auto 10px; 
     text-align: justify;
 }   
-.content-causes-contamination{
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    top : 1000000px;
-}
-.content-causes-contamination2{
-    padding: 0px 20px;
-    margin: 10px auto 10px;
-    text-align: justify;
-}
-.content-causes-droughts{
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    top : 1000000px;
-}
-.content-causes-droughts2{
-    padding: 0px 20px;
-    margin: 10px auto 10px; 
-    text-align: justify;
-}
-.content-causes-forestfires{
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    top : 1000000px;
-}
-.content-causes-forestfires2{
-    padding: 0px 20px;
-    margin: 10px auto 10px; 
-    text-align: justify;
-}
-.content-causes-industrialwaste{
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    top : 1000000px;
-}
-.content-causes-industrialwaste2{
-    padding: 0px 20px;
-    margin: 10px auto 10px; 
-    text-align: justify;
-}
-.content-causes-watercontamination{
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    top : 1000000px;
-}
-.content-causes-watercontamination2{
-    padding: 0px 20px;
-    margin: 10px auto 10px; 
-    text-align: justify;
-}
-.content-causes-inorganicwaste{
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    top : 1000000px;
-}
-.content-causes-inorganicwaste2{
-    padding: 0px 20px;
-    margin: 10px auto 10px; 
-    text-align: justify;
-}
-
-.form-div {
-    padding: 80px 60px;
-}
