@@ -23,24 +23,3 @@
 .contents{
     font-family: "Montserrat", sans-serif;
 }
-
-.form-div {
-    padding: 60px 40px;
-    overflow:hidden;
-}
-
-.navbar-header {
-	backdrop-filter: blur(2px);
-}
-
-.navbar-a {
-	font-size: 19px;
-}
-
-.footer-a{
-	font-size: 19px;
-}
-
-.navbar-button {
-	font-size: 19px;
-}
