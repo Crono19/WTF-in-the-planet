@@ -4,7 +4,7 @@
     background-color: transparent;
     color: rgb(255, 255, 255);  
     height: 540px;
-    width: 270px;
+    width: 20vw;
     top : 40px;
     right : 60px;
     margin: 10px auto 10px;
@@ -22,4 +22,9 @@
 
 .contents{
     font-family: "Montserrat", sans-serif;
+}
+
+.images {
+    width: 20vw;
+    height: 40vw;
 }
