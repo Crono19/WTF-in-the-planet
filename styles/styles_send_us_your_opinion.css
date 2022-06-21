@@ -96,9 +96,8 @@ form {
   }
 
 .form-div {
-    padding: 80px 60px;
-}
-
-.footer-div {
-  margin-top: 6vw;
+    padding-top: 6vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 10vw;
 }
