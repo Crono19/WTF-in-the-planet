@@ -1,1 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+.button1-Resources:hover, .button2-how-much-time-do-we-have:hover, .button3-Community:hover{
+    -webkit-transform:scale(1);transform:scale(1.3);
+    transition: .7s ease-out all;
+}
