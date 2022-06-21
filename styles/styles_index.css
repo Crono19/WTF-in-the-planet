@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
 .background1, .background2 {
-    width: 99.1vw;
+    width: 98.9vw;
     position: absolute;
     z-index: -1;
 
 }
 
 .background1 {
-    top: 10%;
+    top: 0vw;
 }
 
 .background2 {
-    top: 70%;
+    top: 32vw;
 	height: 48vw;
 }
 
@@ -42,7 +42,7 @@
 
 /* ? ----- Port timer css  ----- */
 .countdown {
-	width: 100%;
+	width: 100vw;
 	position:relative;
 	top: 0;
 	left: 0;
@@ -61,7 +61,7 @@
 #count {
 	display: flex;
 	justify-content: center;
-	margin-bottom: -1430px;
+	margin-bottom: -120vw;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;   
     font-size: 16px;
@@ -72,9 +72,9 @@
 
 .simply-section {
 	background:transparent;
-	width: 180px;
-	height: 180px;
-	margin: 0 20px;
+	width: 10vw;
+	height: 10vw;
+	margin: 0 1vw;
 	border-radius: 5px;
 	display: flex;
 	align-items: center;

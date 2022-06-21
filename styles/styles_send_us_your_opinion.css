@@ -57,10 +57,11 @@ form {
     top: 120%;
     left:50%;
     transform: translate(-50%, -50%);
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
     overflow: hidden;
-    margin-top: 15vw;
+    margin-top: 15%;
+    border: none;
   }
   
   .button_send::before{
@@ -77,7 +78,7 @@ form {
   }
   
   .button_send:hover::before{
-    top: -30px;
+    top: -30%;
   }
   
   .button_send::after {

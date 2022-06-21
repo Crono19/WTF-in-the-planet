@@ -66,7 +66,6 @@ body {
 
 .logo {
     border-radius: 10px;
-    background-color: white;
 }
 
 .links-navbar li {
@@ -95,6 +94,7 @@ body {
     border-radius:50px;
     cursor: pointer;
     overflow: hidden;
+    border: none;
 }
 
 .navbar-button::before {
@@ -130,4 +130,20 @@ body {
 
 .navbar-button:hover::after {
     top: 50%;
+}
+
+.navbar-header {
+	backdrop-filter: blur(2px);
+}
+
+.navbar-a {
+	font-size: 19px;
+}
+
+.footer-a{
+	font-size: 19px;
+}
+
+.navbar-button {
+	font-size: 19px;
 }
