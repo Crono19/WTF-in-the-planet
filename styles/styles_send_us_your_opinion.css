@@ -54,13 +54,11 @@ form {
     height: 60px;
     background: #1a8de4;
     position: absolute;
-    top: 120%;
-    left:50%;
     transform: translate(-50%, -50%);
     border-radius: 50px;
     cursor: pointer;
     overflow: hidden;
-    margin-top: 15%;
+    margin-top: 5vw;
     border: none;
   }
   
@@ -101,18 +99,6 @@ form {
     padding: 80px 60px;
 }
 
-.navbar-header {
-	backdrop-filter: blur(2px);
-}
-
-.navbar-a {
-	font-size: 19px;
-}
-
-.footer-a{
-	font-size: 19px;
-}
-
-.navbar-button {
-	font-size: 19px;
+.footer-div {
+  margin-top: 6vw;
 }
