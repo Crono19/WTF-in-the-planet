@@ -2,13 +2,10 @@
 
 .background1, .background2 {
     width: 98.9vw;
+	height: 55vw;
     position: absolute;
     z-index: -1;
 
-}
-
-.background1 {
-    top: 0vw;
 }
 
 .background2 {
@@ -45,10 +42,10 @@
 #count {
 	display: flex;
 	justify-content: center;
-	margin-bottom: -75vw;
+	margin-bottom: -100vw;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;   
-    font-size: 16px;
+    font-size: 2vw;
 	color: white;
 	
 
@@ -68,11 +65,11 @@
 
 .simply-amount {
 	display: block;
-	font-size: 30px;
+	font-size: 2vw;
 	font-weight: 700;
 }
 
 .simply-word {
 	font-weight: 300;
-	font-size: 30px;
+	font-size: 2.2vw;
 }
