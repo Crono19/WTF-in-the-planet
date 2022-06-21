@@ -30,6 +30,7 @@ body {
 
 .footer-div {
     background-color: #000000;
+    width: 99vw;
 }
 
 .footer-li:hover{
@@ -42,6 +43,8 @@ body {
 }
 
 .navbar-header{
+    width: 89.1vw;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,7 +55,7 @@ body {
 }
 
 .links-footer {
-    padding-top:23px;
+    padding-top: 2vw;
     list-style:none;
     text-align:center;
     margin-bottom:0;
@@ -60,21 +63,21 @@ body {
 
 .footer-div {
     text-align:center;
-    padding-bottom:25px;
+    padding-bottom:2vw;
 }
 
 .logo {
-    border-radius: 10px;
+    border-radius: 1vw;
 }
 
 .links-navbar li {
     display:inline-flex;
-    padding: 0px 20px;
+    padding: 0vw 3vh;
 }
 
 .links-footer li{
     display: inline-block;
-    padding:0 20px;
+    padding:0vw 2vh;
 }
 
 .links-navbar li a:hover, .links-footer li a:hover{
@@ -90,7 +93,7 @@ body {
     top:50%;
     left:90%;
     transform:translate(-50%,-50%);
-    border-radius:50px;
+    border-radius:2vw;
     cursor: pointer;
     overflow: hidden;
     border: none;
