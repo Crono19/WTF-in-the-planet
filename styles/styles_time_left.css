@@ -2,10 +2,13 @@
 
 .content-time-left {
     font-family: "Montserrat", sans-serif;
+    font-size: 1.5vw;
+    top : 1000000px;
+    text-align:justify;
+    font-family: "Montserrat", sans-serif;
     padding: 0px 20px;
     margin: 10px auto 10px; 
     text-align: justify;
-    font-size:  25px;
     padding-left: 130px;
     padding-right: 130px;
 }
