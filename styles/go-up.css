@@ -9,6 +9,7 @@
 	border-radius:150px;
 	bottom:20px;
 	right:20px;
+	z-index: 3;
 }
 
 .go-up:hover{
