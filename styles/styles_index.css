@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
+body{
+	background-color: black;
+}
+
 .background1{
     width: 99vw;
 	height: auto;
@@ -9,7 +13,7 @@
 
 .background2 {
 	width: 99vw;
-	height: 90vh;
+	height: auto;
     margin-top: 75vh;
 	position: absolute;
 	z-index:-1
@@ -17,7 +21,7 @@
 }
 
 .footer-div {
-    margin-top: 163vh;
+    margin-top: 185vh;
 }
 
 .container{
@@ -50,8 +54,6 @@
     font-weight: 500;   
     font-size: 2vw;
 	color: white;
-	
-
 }
 
 .simply-section {
@@ -78,6 +80,9 @@
 }
 
 @media (max-width: 800px) {
+	body{
+		background-color: black;
+	}
 	.background1{
 		width: 99.25vw;
 		height: auto;
@@ -93,7 +98,75 @@
 		z-index:0
 	}
 	.footer-div {
-		margin-top: -2vh;
+		margin-top: 12vh;
 		width: 100vw;
+	}
+	.countdown {
+		margin-left: -8vw;
+		position: absolute;
+		z-index: 0;
+	}
+	#count {
+		padding-bottom: 10vh;
+		padding-top: 10vh;
+		margin-bottom: -135vh;
+	}
+	.simply-amount {
+		font-size: 4vw;
+	}
+	
+	.simply-word {
+		font-size: 4vw;
+	}
+	.simply-section {
+		background:black;
+		width: 25vw;
+		height: 10vh;
+	}
+ }
+ @media (max-width: 380px) {
+	body{
+		background-color: black;
+	}
+	.background1{
+		width: 99.25vw;
+		height: auto;
+		position:relative;
+		z-index:0
+		
+	}
+
+	.background2{
+		width: 99.25vw;
+		height: auto;
+		position:relative;
+		margin-top: 0vh;
+		z-index:0
+	}
+	.footer-div {
+		margin-top: 12vh;
+		width: 100vw;
+	}
+	.countdown {
+		margin-left: -8vw;
+		position: absolute;
+		z-index: 0;
+	}
+	#count {
+		padding-bottom: 10vh;
+		padding-top: 10vh;
+		margin-bottom: -160vh;
+	}
+	.simply-amount {
+		font-size: 4vw;
+	}
+	
+	.simply-word {
+		font-size: 4vw;
+	}
+	.simply-section {
+		background:black;
+		width: 25vw;
+		height: 10vh;
 	}
  }
