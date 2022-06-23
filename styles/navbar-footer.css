@@ -141,3 +141,24 @@ body {
 .navbar-a, .footer-a, .navbar-button {
 	font-size: 1.1vw;
 }
+
+@media (max-width: 800px) {
+    .navbar-li, .navbar-a, .navbar-button, .footer-li, .footer-a, .footer-p {
+        font-size: 3vw;
+    }
+    .links-footer {
+        padding-left: 5vw;
+    }
+    .logo {
+        width: 15vw;
+        height: auto;
+    }
+    .navbar-button {
+        width:18vw;
+        height:4vh;
+        margin-left:-2vw;
+    }
+    .navbar-button::before {
+        font-size: 1vh;
+    }
+}

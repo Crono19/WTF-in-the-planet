@@ -10,15 +10,15 @@ p, h1, h3 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 1.3vw;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 4vw;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 1.9vw;
 }
 
 form {
@@ -30,10 +30,10 @@ form {
     background-color: rgb(235, 235, 235);
     color: #6E6E6DFF;
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
+    font-size: 1.3vw;
     border-radius: 15px;
-    width: 350px;
-    height: 50px;
+    width: 25vw;
+    height: 7vh;
     border: none;
 }
 
@@ -42,16 +42,16 @@ form {
     background-color: rgb(235, 235, 235);
     color: #6E6E6DFF;
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
+    font-size: 1.3vw;
     border-radius: 15px;
-    width: 500px;
-    height: 250px;
+    width: 40vw;
+    height: 45vh;
     border: none;
 }
 
 .button_send {
-    width: 200px;
-    height: 60px;
+    width: 15vw;
+    height: 10vh;
     background: #1a8de4;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -100,4 +100,34 @@ form {
     padding-left: 2vw;
     padding-right: 2vw;
     padding-bottom: 10vw;
+}
+
+@media (max-width: 800px) {
+  p {
+    font-size: 5vw;
+  }
+
+  h1 {
+      font-size: 10vw;
+  }
+
+  h3 {
+      font-size: 6vw;
+  }
+  .textbox {
+    font-size: 5vw;
+    width: 60vw;
+   }
+
+.richtextbox {
+    font-size: 5vw;
+    width: 90vw;
+    height: 35vh;
+}
+
+.button_send {
+    width: 40vw;
+    height: 7vh;
+    margin-top: 6.5vw;
+  }
 }
