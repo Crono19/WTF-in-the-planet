@@ -3,10 +3,7 @@
 .button1-Resources, .button2-how-much-time-do-we-have,.button3-Community, .button4-Media {
     background-color: transparent;
     color: rgb(255, 255, 255);  
-    height: 540px;
-    width: 20vw;
     top : 40px;
-    right : 60px;
     margin: 10px auto 10px;
     line-height: 200px;
     border:5px;

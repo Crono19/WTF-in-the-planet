@@ -2,15 +2,15 @@
 
 .content-time-left {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
     top : 1000000px;
     text-align:justify;
     font-family: "Montserrat", sans-serif;
     padding: 0px 20px;
     margin: 10px auto 10px; 
     text-align: justify;
-    padding-left: 130px;
-    padding-right: 130px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .form-div {
@@ -25,4 +25,9 @@
 .timeleft-photos{
     width: 100vw;
     height: auto;
+}
+
+.videos-dimensions{
+    width: 100vw;
+    height: 50vw;
 }

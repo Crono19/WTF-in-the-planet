@@ -4,3 +4,11 @@
     -webkit-transform:scale(1);transform:scale(1.3);
     transition: .7s ease-out all;
 }
+.comunity-buttons{
+    width: 100vw;
+    height: auto;
+}
+.videos-dimensions{
+    width: 100vw;
+    height: 50vw;
+}
