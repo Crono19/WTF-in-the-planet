@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
+body {
+    background-image: url(https://raw.githubusercontent.com/Crono19/WTF-in-the-planet/develop/Background/IMG_3704.jpg);
+}
+
 .button1-Resources, .button2-how-much-time-do-we-have,.button3-Community, .button4-Media {
     background-color: transparent;
     color: rgb(255, 255, 255);  
