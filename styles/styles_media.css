@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+.button1-Resources:hover, .button2-how-much-time-do-we-have:hover, .button3-Community:hover{
+    -webkit-transform:scale(1);transform:scale(1.3);
+    transition: .7s ease-out all;
+}
+.left, .right {
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 10px;
+}
+
+.left img, .right img {
+    width: 48vw;
+    height: auto;
+}
+
+.middle img {
+    width: 97.5vw;
+    padding: 10px;
+}
+
+@media(max-width:800px) {
+    .left, .right {
+        height: auto;
+        display: block;
+        padding: 5px 10px;
+    }
+
+    .left img, .right img {
+        width: 95vw;
+        height: auto;
+    }
+    
+    .middle img {
+        width: 95vw;
+        padding: 10px;
+    }
+}
+
+

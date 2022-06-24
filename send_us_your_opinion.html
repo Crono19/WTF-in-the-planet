@@ -3,18 +3,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Inicio</title>
+    <title>Envíanos tu opinión</title>
     <link rel="icon" href="https://raw.githubusercontent.com/Crono19/WTF-in-the-planet/develop/Logo/Favicon.ico">
     <link rel="stylesheet" href="styles/navbar-footer.css">
-    <link rel="stylesheet" href="styles/styles_index.css">
+    <link rel="stylesheet" href="styles/styles_send_us_your_opinion.css">
     <link rel="stylesheet" href="styles\go-up.css">
     <link rel="stylesheet" href="styles\fonts.css">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="java-code\go-up.js"></script>
 </head>
 <body>
+
+    <!--go-up button section-->
     <span class="go-up icon-arrow-up2"></span>
+
     <!--Navbar section-->
 
     <header class="navbar-header">
@@ -32,29 +35,35 @@
     </header>
 
    <!--Content section-->
-   <div class="container">
-        <div class="seccion-1 rellax" data-rellax-desktop-speed="3" >
-            <img src="https://raw.githubusercontent.com/Crono19/WTF-in-the-planet/develop/Background/bg1.jpg" alt="Aun tenemos tiempo" class="background1">
-        </div>
-     
-        <div class="seccion-2 rellax " data-rellax-desktop-speed="5"></div>
-            <img src="https://raw.githubusercontent.com/Crono19/WTF-in-the-planet/develop/Background/BG2.jpg" alt="De lograr un cambio" class="background2">
-        </div>
-     
-         <!--Countdown section-->
-        <div class="countdown rellax" data-rellax-desktop-speed="-1">
-        <div id="count"></div>
-        </div>
-     
-        <!--Efecto Parallax-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    <script src="java-code/simplyCountdown.min.js"></script>
-        <script>
-            var rellax = new Rellax('.rellax');
-        </script>
-        <script src="java-code\countdown.js"></script> 
-       
-        <!--Footer section-->
-        <div class="footer-div">
+    
+   <div class="form-div">
+        <h1>Tu opinión nos importa</h1>
+        <br>
+        <h3>
+            Si deseas contribuir mediante un comentario, cuestionamiento o idea, te agradecemos que llenes
+            el formulario con la información requerida.
+        </h3>
+        <br>
+        <br>
+        <form action="mailto:wtfintheplantet@gmail.com" method="POST" enctype="multipart/form-data" name="OpinionForm">
+            <p>Escribe tu nombre</p>
+            <input class="textbox" type="text" name="name_input">
+            <br>
+            <br>
+            <p>Escribe tu correo electrónico</p>
+            <input class="textbox" type="text" name="email_input">
+            <br>
+            <br>
+            <p>Dejanos tu comentario</p>
+        <textarea class="richtextbox" name="comment"></textarea>
+            <br>
+            <button class="button_send" type="submit" value="Enviar" id="send">
+        </form>
+    </div>
+    
+    <!--Footer section-->
+
+    <div class="footer-div">
         <footer>
             <ul class="links-footer"> 
                 <li class="footer-p">Todos los derechos reservados 2022</li>
@@ -65,6 +74,5 @@
                 <li class="footer-li"><a class="footer-a" href="https://github.com/Oscar1352" target="_BLANK">Oscar Luna</a></li>
             </ul>
         </footer>
-        </div>
     </div>
 </body>

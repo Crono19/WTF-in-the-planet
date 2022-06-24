@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+/*Content css*/
+
+p, h1, h3 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.3vw;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+h3 {
+    font-size: 1.9vw;
+}
+
+form {
+    text-align: center;
+}
+
+.textbox {
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    color: #6E6E6DFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3vw;
+    border-radius: 15px;
+    width: 25vw;
+    height: 7vh;
+    border: none;
+}
+
+.richtextbox {
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    color: #6E6E6DFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3vw;
+    border-radius: 15px;
+    width: 40vw;
+    height: 45vh;
+    border: none;
+}
+
+.button_send {
+    width: 15vw;
+    height: 10vh;
+    background: #1a8de4;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 5vw;
+    border: none;
+  }
+  
+  .button_send::before{
+    content: 'Enviar';
+    color: white;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: all .5s ease-in-out;
+  }
+  
+  .button_send:hover::before{
+    top: -30%;
+  }
+  
+  .button_send::after {
+    font-family: 'FontAwesome';
+    content: "\f1d8";
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 150%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: all .5s ease-in-out;
+  }
+  
+  .button_send:hover::after {
+    top: 50%;
+  }
+
+.form-div {
+    padding-top: 6vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 10vw;
+}
+
+@media (max-width: 800px) {
+  p {
+    font-size: 5vw;
+  }
+
+  h1 {
+      font-size: 10vw;
+  }
+
+  h3 {
+      font-size: 6vw;
+  }
+  .textbox {
+    font-size: 5vw;
+    width: 60vw;
+   }
+
+.richtextbox {
+    font-size: 5vw;
+    width: 90vw;
+    height: 35vh;
+}
+
+.button_send {
+    width: 40vw;
+    height: 7vh;
+    margin-top: 6.5vw;
+  }
+}

@@ -1,0 +1,19 @@
+.go-up {
+	display:none;
+	padding:20px;
+	background:#1a8de4;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	border-radius:150px;
+	bottom:20px;
+	right:20px;
+	z-index: 3;
+}
+
+.go-up:hover{
+	background:#0272c9;
+	-webkit-transform:scale(1);transform:scale(1.2);
+    transition: .7s ease-out all;
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+body {
+    background-image: url(https://raw.githubusercontent.com/Crono19/WTF-in-the-planet/develop/Background/IMG_3704.jpg);
+}
+
+.button1-Resources, .button2-how-much-time-do-we-have,.button3-Community, .button4-Media {
+    background-color: transparent;
+    color: rgb(255, 255, 255);  
+    top : 40px;
+    margin: 10px auto 10px;
+    line-height: 200px;
+    border:5px;
+}
+
+.form-div:hover .button1-Resources:hover, .button2-how-much-time-do-we-have:hover, .button3-Community:hover, .button4-Media:hover{
+    -webkit-transform:scale(1);transform:scale(1.3);
+    transition: .7s ease-out all;
+}
+
+.Buttons:hover {
+    cursor: pointer;}
+
+.contents{
+    font-family: "Montserrat", sans-serif;
+}
+
+.images {
+    width: 20vw;
+    height: 40vw;
+}
