@@ -26,3 +26,11 @@
     width: 100vw;
     height: auto;
 }
+
+@media (max-width: 800px) {
+	.content-time-left{
+        font-size: 4vw;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
