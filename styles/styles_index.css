@@ -81,7 +81,7 @@ body{
 
 @media (max-width: 800px) {
 	body{
-		background-color: black;
+		background-image:url("https://i.pinimg.com/736x/86/13/d4/8613d46ac9fbaa1e2f7bccceaa71fd6c.jpg");
 	}
 	.background1{
 		width: 99.25vw;
@@ -98,7 +98,7 @@ body{
 		z-index:0
 	}
 	.footer-div {
-		margin-top: 12vh;
+		margin-top: 25vh;
 		width: 100vw;
 	}
 	.countdown {
@@ -109,7 +109,7 @@ body{
 	#count {
 		padding-bottom: 10vh;
 		padding-top: 10vh;
-		margin-bottom: -135vh;
+		margin-bottom: -150vh;
 	}
 	.simply-amount {
 		font-size: 4vw;
