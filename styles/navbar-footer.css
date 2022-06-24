@@ -161,4 +161,7 @@ body {
     .navbar-button::before {
         font-size: 1vh;
     }
+    .navbar-header{
+        width: 90vw;
+    }
 }
