@@ -1,10 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500'); 
-.form-div {
-    padding: 80px 60px;
-}
-.footer-div {
-    margin-top: 40vh;
-}
 
 .left, .right {
     height: auto;
@@ -40,9 +34,6 @@
 @media (max-width: 800px) {
     .navbar-li, .navbar-a, .navbar-button, .footer-li, .footer-a, .footer-p {
         font-size: 3vw;
-    }
-    .footer-div {
-        margin-top: 5vh;
     }
 
     .left, .right {
