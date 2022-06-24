@@ -146,6 +146,11 @@ body {
     .navbar-li, .navbar-a, .navbar-button, .footer-li, .footer-a, .footer-p {
         font-size: 3vw;
     }
+
+    .links-navbar {
+        text-align: center;
+        padding-right: 10vw;
+    }
     .links-footer {
         padding-left: 5vw;
     }
