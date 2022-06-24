@@ -19,6 +19,9 @@
     font-size: 1.5vw;
     text-align: justify;
     font-family: "Montserrat", sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
 }
 
 .right h2 {
