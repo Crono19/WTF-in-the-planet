@@ -2,15 +2,15 @@
 
 .content-time-left {
     font-family: "Montserrat", sans-serif;
-    font-size: 2.5vw;
+    font-size: 3vw;
     top : 1000000px;
     text-align:justify;
     font-family: "Montserrat", sans-serif;
     padding: 0px 20px;
     margin: 10px auto 10px; 
     text-align: justify;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .form-div {
