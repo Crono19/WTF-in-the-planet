@@ -11,7 +11,7 @@ body {
 
 /*Navbar and footer  css*/
 
-.navbar-li:hover{
+.navbar-li:hover, .logo:hover{
     -webkit-transform:scale(1);transform:scale(1.2);
     transition: .7s ease-out all;
 }
@@ -62,11 +62,12 @@ body {
 }
 
 .logo {
+    margin-left: -28vw;
     position: absolute;
     width:7vw;
     height:auto;
     border-radius: 0.5vw;
-    margin-top: -1.5vh;
+    margin-top: -3.8vh;
 }
 
 .links-navbar li {
@@ -157,7 +158,7 @@ body {
         width:20vw;
         height:auto;
         border-radius: 0.5vw;
-        margin-top: 2.5vh;
+        margin-top: 1vh;
     }
 
     .navbar-button {

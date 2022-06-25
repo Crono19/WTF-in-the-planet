@@ -25,6 +25,7 @@ body{
 
 /* ? ----- Port timer css  ----- */
 .countdown {
+	margin-left: -2vw;
 	width: 90vw;
 	position:relative;
 	top: 0;
