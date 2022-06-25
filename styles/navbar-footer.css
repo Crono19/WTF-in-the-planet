@@ -148,15 +148,18 @@ body {
 
     .links-navbar {
         text-align: center;
-        padding-right: 10vw;
+        padding-right: 15vw;
     }
     .links-footer {
         padding-left: 5vw;
     }
     .logo {
-        width: 15vw;
-        height: auto;
+        width:20vw;
+        height:auto;
+        border-radius: 0.5vw;
+        margin-top: 2.5vh;
     }
+
     .navbar-button {
         width:18vw;
         height:4vh;
