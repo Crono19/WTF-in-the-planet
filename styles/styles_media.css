@@ -15,6 +15,11 @@
     height: auto;
 }
 
+.button1-Resources, .button3-Community, .button2-how-much-time-do-we-have{
+    border: none;
+    background-color: transparent;
+}
+
 .middle img {
     width: 97.5vw;
     padding: 10px;

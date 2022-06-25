@@ -4,6 +4,12 @@
     -webkit-transform:scale(1);transform:scale(1.3);
     transition: .7s ease-out all;
 }
+
+.button1-Resources, .button4-Media, .button2-how-much-time-do-we-have {
+    border: none;
+    background-color: transparent;
+}
+
 .comunity-buttons{
     width: 90vw;
     height: auto;

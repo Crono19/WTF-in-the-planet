@@ -17,6 +17,11 @@
     padding: 80px 60px;
 }
 
+.button2-how-much-time-do-we-have, .button3-Community, .button4-Media{
+    border: none;
+    background-color: transparent;
+}
+
 .button2-how-much-time-do-we-have:hover, .button3-Community:hover, .button4-Media:hover{
     -webkit-transform:scale(1);transform:scale(1.3);
     transition: .7s ease-out all;
