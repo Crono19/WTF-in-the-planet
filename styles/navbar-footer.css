@@ -26,11 +26,12 @@ body {
 
 .links-navbar{
     transform:translate(-10%,-0%);
+    padding-left: 34vw;
 }
 
 .footer-div {
     background-color: #000000;
-    width: 99vw;
+    width: 98vw;
 }
 
 .footer-li:hover{
@@ -38,19 +39,13 @@ body {
     transition: .7s ease-out all;
 }
 
-.navbar-header {
-    background-color: #1c2547;
-}
-
 .navbar-header{
-    width: 89.1vw;
-    height: auto;
+    background-color: #1c2547;
+    width: 89vw;
+    height: 12vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.navbar-header {
     padding: 5px 5%;
 }
 
@@ -67,7 +62,11 @@ body {
 }
 
 .logo {
-    border-radius: 1vw;
+    position: absolute;
+    width:7vw;
+    height:auto;
+    border-radius: 0.5vw;
+    margin-top: -1.5vh;
 }
 
 .links-navbar li {

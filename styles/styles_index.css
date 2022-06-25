@@ -4,20 +4,15 @@ body{
 	background-image: url(https://raw.githubusercontent.com/Crono19/WTF-in-the-planet/develop/Background/IMG_3704.jpg);
 }
 
-.background1{
-    width: 99vw;
+.background1, .background2{
+    width: 98vw;
 	height: auto;
     position:absolute;
 	z-index:-1
 }
 
 .background2 {
-	width: 99vw;
-	height: auto;
     margin-top: 75vh;
-	position: absolute;
-	z-index:-1
-	
 }
 
 .footer-div {
