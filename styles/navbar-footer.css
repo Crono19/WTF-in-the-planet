@@ -26,7 +26,7 @@ body {
 
 .links-navbar{
     transform:translate(-10%,-0%);
-    padding-left: 34vw;
+    padding-left: 32vw;
 }
 
 .footer-div {
@@ -62,7 +62,7 @@ body {
 }
 
 .logo {
-    margin-left: -28vw;
+    margin-left: -27vw;
     position: absolute;
     width:7vw;
     height:auto;
